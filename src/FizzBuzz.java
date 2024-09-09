@@ -33,11 +33,11 @@ class FizzBuzz {
         int t = 1;
         while (t < 100) {
 
-            t = dofizzbuzz(t);
+            t = doFizzBuzz(t);
         }
     }
 
-    private static int dofizzbuzz(int t) {
+    private static int doFizzBuzz(int t) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = t % 3 == 0;
         boolean divisibleBy5 = t % 5 == 0;
